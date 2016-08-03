@@ -43,22 +43,20 @@
 @endsection
 
 @section('post-script')
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyB6K1CFUQ1RwVJ-nyXxd6W0rfiIBe12Q&libraries=places&language=pt-BR&q=São+Caetano+do+Sul+São+Paulo"
-    type="text/javascript"></script>
   <script>
 
 var map = new google.maps.Map(document.getElementById('map-canvas'),{
     center:{
-      lat: -23.7061479,
-      lng: -46.5794124
+      lat: -27.0006669,
+      lng: -48.6475047
     },
   zoom:13
   });
   var image = 'https://cdn1.iconfinder.com/data/icons/Map-Markers-Icons-Demo-PNG/32/Map-Marker-Marker-Outside-Azure.png';
   var marker = new google.maps.Marker({
     position: {
-      lat: -23.7061479,
-      lng: -46.5794124
+      lat: -27.0006669,
+      lng: -48.6475047
     },
     icon: image,
     map:map,

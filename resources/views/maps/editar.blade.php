@@ -111,21 +111,20 @@
 @endsection
 
 @section('post-script')
-
 <script>
 
   var map = new google.maps.Map(document.getElementById('map-canvas'),{
     center:{
-      lat: -23.6233625,
-          lng: -46.55524330000003
+      lat: -27.0006669,
+          lng: -48.6475047
     },
   zoom:13
   });
   var image = 'https://cdn1.iconfinder.com/data/icons/Map-Markers-Icons-Demo-PNG/32/Map-Marker-Marker-Outside-Azure.png';
   var marker = new google.maps.Marker({
     position: {
-      lat: -23.6233625,
-          lng: -46.55524330000003
+      lat: -27.0006669,
+          lng: -48.6475047
     },
     icon: image,
     map:map,
