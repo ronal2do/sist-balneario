@@ -50,9 +50,6 @@
 @endsection
 
 @section('post-script')
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwWj17yQyaNwNqZwm2WF_bGk7mrhKegXY&callback=initMap">
-    </script>
     <script src="/assets/js/data.js"></script>
     <script src="/assets/js/main.js"></script>
 @endsection
