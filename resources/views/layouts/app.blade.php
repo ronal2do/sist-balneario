@@ -97,7 +97,6 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?libraries=geometry&sensor=false&language=pt_BR"></script>
     <script src="/assets/js/angular.min.js"></script>
     <script src="/assets/js/app.js"></script>
     <script src='/assets/js/ngMask.min.js'></script>
