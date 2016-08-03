@@ -111,8 +111,7 @@
 @endsection
 
 @section('post-script')
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyB6K1CFUQ1RwVJ-nyXxd6W0rfiIBe12Q&address=São%20Caetano%20do%20Sul+São%20Paulo&libraries=places&language=pt-BR"
-  type="text/javascript"></script>
+
 <script>
 
   var map = new google.maps.Map(document.getElementById('map-canvas'),{

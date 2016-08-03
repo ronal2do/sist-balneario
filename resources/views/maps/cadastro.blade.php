@@ -76,7 +76,7 @@
           <tr>
             <td><b class="m_title">logradouro: </b></td>
             <td>{{$cadastro->logradouro}}</td>
-            <td style="text-align: right"><a href="https://www.google.com.br/maps/place/{{$cadastro->logradouro}}, {{$cadastro->numero}}, {{$cadastro->bairro}} São Caetano do Sul - SP" target="_blank"><i class="fa fa-google fa-fw"></i>Buscar endereço no Google Maps</a></td>
+            <td style="text-align: right"><a href="https://www.google.com.br/maps/place/{{$cadastro->logradouro}}, {{$cadastro->numero}}, {{$cadastro->bairro}}" target="_blank"><i class="fa fa-google fa-fw"></i>Buscar endereço no Google Maps</a></td>
           </tr>
           <tr>
             <td><b class="m_title">bairro: </b></td>
