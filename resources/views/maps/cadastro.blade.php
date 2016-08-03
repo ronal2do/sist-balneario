@@ -117,9 +117,7 @@
 @endsection
 
 @section('post-script')
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwWj17yQyaNwNqZwm2WF_bGk7mrhKegXY&callback=initMap">
-    </script>
+
  <script src="http://code.jquery.com/jquery-migrate-1.1.1.min.js"></script>
 
 <script>

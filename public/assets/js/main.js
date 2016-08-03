@@ -11,7 +11,7 @@ var myMap = function() {
 		@param object settings (configuration options for map)
 		@return undefined
 	*/
-	function init(settings) {
+	function initMap(settings) {
 		map = new google.maps.Map(document.getElementById( settings.idSelector ), options);
 		markerLocation = settings.markerLocation;
 		loadMarkers();
@@ -252,7 +252,7 @@ var myMap = function() {
 	}
 
 	return {
-		init: init,
+		initMap: initMap,
 		loadMarkers: loadMarkers,
 		filterCtrl: filterCtrl,
 		resetFilter: resetFilter
@@ -267,7 +267,7 @@ $(function() {
 		// markerLocation: 'img/red-fat-marker.png'
 	}
 
-	myMap.init( mapConfig );
+	myMap.initMap( mapConfig );
 
 	$('.load-btn').on('click', function() {
 		var $this = $(this);

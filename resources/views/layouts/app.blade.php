@@ -103,7 +103,9 @@
     <script src='/assets/js/sweetalert.min.js'></script>
     <script src='/assets/js/markerclusterer.js'></script>
     {{-- <script src="{{ elixir('assets/js/app.js') }}"></script> --}}
-       
+           <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwWj17yQyaNwNqZwm2WF_bGk7mrhKegXY&callback=initMap">
+    </script>
     @yield('post-script')
 
     @include('sweet::alert')
