@@ -104,7 +104,7 @@
     <script src='/assets/js/markerclusterer.js'></script>
     {{-- <script src="{{ elixir('assets/js/app.js') }}"></script> --}}
            <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwWj17yQyaNwNqZwm2WF_bGk7mrhKegXY">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtw4sSBBpA73vpTNXXBz40goq3b7BePEk">
     </script>
     @yield('post-script')
 
