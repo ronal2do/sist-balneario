@@ -117,9 +117,9 @@
 @endsection
 
 @section('post-script')
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyB6K1CFUQ1RwVJ-nyXxd6W0rfiIBe12Q&libraries=places&language=pt-BR&region=São%20Caetano%20do%20Sul+São%20Paulo"
-  type="text/javascript"></script>
-  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwWj17yQyaNwNqZwm2WF_bGk7mrhKegXY&callback=initMap">
+    </script>
  <script src="http://code.jquery.com/jquery-migrate-1.1.1.min.js"></script>
 
 <script>

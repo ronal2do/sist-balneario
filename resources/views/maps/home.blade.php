@@ -49,8 +49,10 @@
 
 @endsection
 
-@section('post-script')<script src="https://maps.googleapis.com/maps/embed/v1/place?key=AIzaSyBmGU2C9XvUmYwszWgrAL2gF1knXY-C--Q&language=pt-BR&region=São%20Caetano%20do%20Sul+São%20Paulo"
-  type="text/javascript"></script>
+@section('post-script')
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwWj17yQyaNwNqZwm2WF_bGk7mrhKegXY&callback=initMap">
+    </script>
     <script src="/assets/js/data.js"></script>
     <script src="/assets/js/main.js"></script>
 @endsection
